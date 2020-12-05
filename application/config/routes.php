@@ -2,82 +2,82 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$route['default_controller'] = 'loginController';
+$route['default_controller'] = 'LoginController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['login'] = 'loginController/login';
-$route['volver'] = 'loginController/volver';
-$route['ingresar'] = 'loginController/ingresar';
-$route['ingresar1'] = 'loginController/ingresar1';
+$route['login'] = 'LoginController/login';
+$route['volver'] = 'LoginController/volver';
+$route['ingresar'] = 'LoginController/ingresar';
+$route['ingresar1'] = 'LoginController/ingresar1';
 
 
-$route['inicio'] = 'contadorController';
-$route['contador'] = 'contadorController/Clientes';
-$route['insert'] = 'contadorController/insertarCliente';
-$route['listar'] = 'contadorController/listarCliente';
-$route['eliminar'] = 'contadorController/eliminarCliente';
-$route['seleccionar'] = 'contadorController/seleccionarCliente';
-$route['editar'] = 'contadorController/editarCliente';
-$route['activo'] = 'contadorController/activoCliente';
-$route['trabajo'] = 'contadorController/trabajoCliente';
-$route['cuentas'] = 'contadorController/cuentas';
+$route['inicio'] = 'ContadorController';
+$route['contador'] = 'ContadorController/Clientes';
+$route['insert'] = 'ContadorController/insertarCliente';
+$route['listar'] = 'ContadorController/listarCliente';
+$route['eliminar'] = 'ContadorController/eliminarCliente';
+$route['seleccionar'] = 'ContadorController/seleccionarCliente';
+$route['editar'] = 'ContadorController/editarCliente';
+$route['activo'] = 'ContadorController/activoCliente';
+$route['trabajo'] = 'ContadorController/trabajoCliente';
+$route['cuentas'] = 'ContadorController/cuentas';
 
 
-$route['libroDiario'] = 'contadorController/libroDiario';
-$route['libroMayor'] = 'contadorController/libroMayor';
-$route['ConsultarLibro'] = 'contadorController/ConsultarLibro';
+$route['libroDiario'] = 'ContadorController/libroDiario';
+$route['libroMayor'] = 'ContadorController/libroMayor';
+$route['ConsultarLibro'] = 'ContadorController/ConsultarLibro';
 
-$route['balanceComprobacion'] = 'contadorController/balanceComprobacion';
+$route['balanceComprobacion'] = 'ContadorController/balanceComprobacion';
 
-$route['estadoFinanciero'] = 'contadorController/estadoFinanciero';
-
-
-$route['listarCTA'] = 'contadorController/listarCTA';
-$route['registrarCuenta'] = 'contadorController/registrarCuenta';
+$route['estadoFinanciero'] = 'ContadorController/estadoFinanciero';
 
 
-$route['asientoCompras'] = 'contadorController/asientoCompras';
-$route['listarDocCompras'] = 'contadorController/listarDocCompras';
-$route['crearFormulario'] = 'contadorController/crearFormulario';
-$route['registrarAsiento'] = 'contadorController/registrarAsiento';
-$route['registrarAsiento2'] = 'contadorController/registrarAsiento2';
+$route['listarCTA'] = 'ContadorController/listarCTA';
+$route['registrarCuenta'] = 'ContadorController/registrarCuenta';
 
 
-
-$route['asientoVentas'] = 'contadorController/asientoVentas';
-$route['listarDocVentas'] = 'contadorController/listarDocVentas';
-$route['crearFormularioVenta'] = 'contadorController/crearFormularioVenta';
-$route['registrarAsientoVenta'] = 'contadorController/registrarAsientoVenta';
-
-
-$route['asientoPagos'] = 'contadorController/asientoPagos';
-$route['listarDocPagos'] = 'contadorController/listarDocPagos';
-$route['crearFormularioPago'] = 'contadorController/crearFormularioPago';
-$route['registrarAsientoPago'] = 'contadorController/registrarAsientoPago';
-
-
-$route['asientoCobros'] = 'contadorController/asientoCobros';
-$route['listarDocCobros'] = 'contadorController/listarDocCobros';
-$route['crearFormularioCobro'] = 'contadorController/crearFormularioCobro';
-$route['registrarAsientoCobro'] = 'contadorController/registrarAsientoCobro';
-
-
-$route['listarAsiento'] = 'contadorController/listarAsiento';
-
-$route['listarAsientoFecha'] = 'contadorController/listarAsientoFecha';
+$route['asientoCompras'] = 'ContadorController/asientoCompras';
+$route['listarDocCompras'] = 'ContadorController/listarDocCompras';
+$route['crearFormulario'] = 'ContadorController/crearFormulario';
+$route['registrarAsiento'] = 'ContadorController/registrarAsiento';
+$route['registrarAsiento2'] = 'ContadorController/registrarAsiento2';
 
 
 
-
-$route['docCompras'] = 'clienteController/docCompras';
-$route['subirCompras'] = 'clienteController/subirCompras';
-
-
-$route['docVentas'] = 'clienteController/docVentas';
-$route['subirVentas'] = 'clienteController/subirVentas';
+$route['asientoVentas'] = 'ContadorController/asientoVentas';
+$route['listarDocVentas'] = 'ContadorController/listarDocVentas';
+$route['crearFormularioVenta'] = 'ContadorController/crearFormularioVenta';
+$route['registrarAsientoVenta'] = 'ContadorController/registrarAsientoVenta';
 
 
+$route['asientoPagos'] = 'ContadorController/asientoPagos';
+$route['listarDocPagos'] = 'ContadorController/listarDocPagos';
+$route['crearFormularioPago'] = 'ContadorController/crearFormularioPago';
+$route['registrarAsientoPago'] = 'ContadorController/registrarAsientoPago';
 
-$route['listarCliente'] = 'clienteController/listarCliente';
+
+$route['asientoCobros'] = 'ContadorController/asientoCobros';
+$route['listarDocCobros'] = 'ContadorController/listarDocCobros';
+$route['crearFormularioCobro'] = 'ContadorController/crearFormularioCobro';
+$route['registrarAsientoCobro'] = 'ContadorController/registrarAsientoCobro';
+
+
+$route['listarAsiento'] = 'ContadorController/listarAsiento';
+
+$route['listarAsientoFecha'] = 'ContadorController/listarAsientoFecha';
+
+
+
+
+$route['docCompras'] = 'ClienteController/docCompras';
+$route['subirCompras'] = 'ClienteController/subirCompras';
+
+
+$route['docVentas'] = 'ClienteController/docVentas';
+$route['subirVentas'] = 'ClienteController/subirVentas';
+
+
+
+$route['listarCliente'] = 'ClienteController/listarCliente';

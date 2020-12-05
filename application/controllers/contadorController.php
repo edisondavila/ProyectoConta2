@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class contadorController extends CI_Controller {
+class ContadorController extends CI_Controller {
 
 	
 	public function __construct()
